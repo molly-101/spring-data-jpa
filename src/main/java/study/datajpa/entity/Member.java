@@ -33,6 +33,7 @@ public class Member {
         this.age = age;
         if (team != null) {
             changeTeam(team);
+
         }
     }
 
