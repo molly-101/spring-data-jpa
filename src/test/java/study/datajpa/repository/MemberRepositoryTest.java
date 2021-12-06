@@ -228,4 +228,9 @@ class MemberRepositoryTest {
         findMember.setUsername("member2");
         em.flush();
     }
+
+    @Test
+    public void callCustom() {
+        List<Member> result = memberRepository.findMemberCustom();
+    }
 }
